@@ -5,8 +5,8 @@ services:
     build:
       context: .
     ports:
-      - "5000:5000"
+      - "8000:5000"
     volumes:
-      - ./noorsanapi.py.py:/app/noorsanapi.py
+      - ./noorsanapi.py:/app/noorsanapi.py
     restart: always
 
