@@ -1,12 +1,12 @@
 version: '3'
 
 services:
-  web:
+  noorsanapi:
     build:
       context: .
     ports:
       - "8000:5000"
-    volumes:
-      - ./noorsanapi.py:/app/noorsanapi.py
+        #volumes:
+        #- ./noorsanapi.py:/app/noorsanapi.py
     restart: always
 

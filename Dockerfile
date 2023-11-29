@@ -16,9 +16,6 @@ COPY . /app
 # Expose port 5000 to the outside world
 EXPOSE 5000
 
-# Define environment variable
-ENV NAME World
-
 # Run app.py when the container launches
 CMD ["python", "noorsanapi.py"]
 
