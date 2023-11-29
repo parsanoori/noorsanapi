@@ -1,5 +1,7 @@
 # API Documentation for `credittotoken` and `approveco2` Endpoints
 
+##  Warning: ChatGPT Generated README.md
+
 This README.md file provides documentation for the API endpoints implemented in the provided Python Flask code. The code defines two endpoints, `/credittotoken` and `/approveco2`, and this documentation explains how to use them.
 
 ## Table of Contents
